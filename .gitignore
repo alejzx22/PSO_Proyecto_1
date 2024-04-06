@@ -52,7 +52,7 @@ Mkfile.old
 dkms.conf
 
 .vscode/
-/Proyecto_1/output/*
+/output/*
 *.bin
-/Proyecto_1/temps
-/Proyecto_1/temporals
+/temps
+/temporals
