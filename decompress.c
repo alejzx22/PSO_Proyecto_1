@@ -438,7 +438,7 @@ int main(int argc, char *argv[]) {
 
         printf("Parallel decompression\n");
         gettimeofday(&start, NULL);
-        parallel_decompression_procedure(input, argv[1]);
+        parallel_decompression_procedure(input, argv[optind]);
         gettimeofday(&end, NULL);
         time_taken = ((end.tv_sec - start.tv_sec) * 1e9) + ((end.tv_usec - start.tv_usec) * 1e3);
         printf("Time taken: %f nanoseconds\n", time_taken);
